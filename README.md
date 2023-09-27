@@ -1,49 +1,40 @@
-# Milk Æ Wey SDV (Space Debris Visualizer)
+# Space Debris Visualizer
 
-<img align="right" width="150" height="150"
-     alt="Logo"
-     src="https://user-images.githubusercontent.com/18373185/135788011-ccd0d816-943e-4dde-bd9e-76f50abdfa40.png">
+![Explore the Cosmos](https://user-images.githubusercontent.com/18373185/135788011-ccd0d816-943e-4dde-bd9e-76f50abdfa40.png)
 
-Do you enjoy looking at the sky and seeing all the stars? That may not be possible in the future, as the amount of space debris is constantly growing and creating a layer of trash that may block us from seeing outside our planet and even leaving it.
-Space debris travels at a median speed of 16,000 mph, and if it collides with an active satellite it could have catastrophic consequences. 
+**Do you ever gaze at the night sky, admiring the cosmic wonders above? Imagine a future where this simple pleasure becomes a rarity. The ever-growing menace of space debris threatens to obscure our view of the stars and jeopardize vital satellites.**
 
-Our project allows anyone to visualize the amount of debris that orbits the earth, and aims to raise awareness of the problem it represents and to serve as a tool for future initiatives. 
+At speeds averaging 16,000 mph, even the tiniest piece of space junk can spell disaster when it collides with an active satellite. Our mission is clear: to confront this escalating problem, raise awareness, and provide a tool for future initiatives.
 
 ## Demo
 
-https://www.youtube.com/watch?v=ftqKBi-OW68
+[Explore the Universe](#) - *Insert your demo link here*
 
-## Live project
+## Live Project
 
-[https://milkywey.rocks](https://milkywey.rocks)
+[Join the Cosmic Cleanup](#) - *Insert your live project link here*
 
+## What We Offer
 
-## Description
+Our application presents a stunning, real-time 3D model of Earth, revealing the intricate dance of space debris that envelops our planet. Click on any celestial object to unveil a treasure trove of data, including its apoapsis, periapsis, eccentricity of orbit, name, and NORAD ID.
 
-Our app renders a 3D model of the earth with all the known space debris in real time, and it allows you to get information on that specific object when you click on it like the apoapsis, periapsis, and the eccentricity of its orbit, along with its name and its NORAD id.
+![Earth from Above](https://user-images.githubusercontent.com/18373185/135787252-d4873699-bc5f-4f78-8f49-0e9af52db283.png)
 
-![image](https://user-images.githubusercontent.com/18373185/135787252-d4873699-bc5f-4f78-8f49-0e9af52db283.png)
+![Space Junk Details](https://user-images.githubusercontent.com/18373185/135787265-b9dcb0d5-8901-4887-81f7-eb2970fe5018.png)
 
-![image](https://user-images.githubusercontent.com/18373185/135787265-b9dcb0d5-8901-4887-81f7-eb2970fe5018.png)
+**Our Technology:** We harnessed the power of JavaScript within the React web framework, alongside remarkable open-source libraries like Satellite.js. For the mesmerizing 3D representation of Earth and its orbiting debris, we turned to CesiumJS and Resium.
 
-We used JavaScript with the React web framework, along with multiple open source libraries like Satellite.js to calculate the objects trajectories, and CesiumJS and Resium to visualize the 3D model of the earth and all the points
+## Data at Our Fingertips
 
-## Data
+We culled invaluable data from [space-track.org](https://www.space-track.org/documentation#/api), employing a Python script to distill the essential fields for our project. The Two-Line Element (TLE) format enabled us to calculate orbits, while we also captured apoapsis, periapsis, and eccentricity data for each celestial path.
 
-We retrieved data from space-track.org and created a Python script to extract the data fields that would be used for our project.
+## Our Resources
 
-We used the TLE format to calculate the orbits and also extracted the apoapsis, periapsis, and the eccentricity of the orbits.
+- **Data Source:** [space-track.org](https://www.space-track.org/documentation#/api)
+- **3D Rendering:** [Cesium](https://cesium.com/)
+- **Orbit Calculations:** [Satellite.js](https://github.com/shashwatak/satellite-js)
+- **Inspiration:** [NASA's Orbital Debris Program](https://www.nasa.gov/mission_pages/station/news/orbital_debris.html)
+- **Web Framework:** [React](https://reactjs.org/)
+- **React Cesium Components:** [Resium](https://resium.reearth.io/)
 
-## Used Resources
-
-Data extracted from https://www.space-track.org/documentation#/api
-
-3D rendering https://cesium.com/
-
-Orbits calculations https://github.com/shashwatak/satellite-js
-
-Investigation https://www.nasa.gov/mission_pages/station/news/orbital_debris.html
-
-Web Framework https://es.reactjs.org/
-
-Cesium components for React https://resium.reearth.io/
+Join us on our cosmic journey as we visualize the debris threatening our view of the stars and explore ways to preserve the beauty of the night sky.
