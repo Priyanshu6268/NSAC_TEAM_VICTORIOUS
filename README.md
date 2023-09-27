@@ -1,6 +1,6 @@
 # Space Debris Visualizer
 
-![Explore the Cosmos](https://user-images.githubusercontent.com/18373185/135788011-ccd0d816-943e-4dde-bd9e-76f50abdfa40.png)
+![Explore the Cosmos](https://www.nasa.gov/sites/default/files/4-8-nrc-evaluates-nasas-orbital-debris-programs.jpg)
 
 **Do you ever gaze at the night sky, admiring the cosmic wonders above? Imagine a future where this simple pleasure becomes a rarity. The ever-growing menace of space debris threatens to obscure our view of the stars and jeopardize vital satellites.**
 
